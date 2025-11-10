@@ -130,11 +130,8 @@
 					$('.main.style1')
 						.scrollex({
 							mode:		'middle',
-<<<<<<< HEAD
 							delay:		10,
-=======
-							delay:		50,
->>>>>>> 54e58b0cefcae03e8665e23a4e9f236a488d2ce4
+
 							initialize:	function() { $(this).addClass('inactive'); },
 							terminate:	function() { $(this).removeClass('inactive'); },
 							enter:		function() { $(this).removeClass('inactive'); },
